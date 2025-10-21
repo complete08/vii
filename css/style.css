@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#heading{
+    background-color: #fdf9f2;
+    color: #785238;
+    padding: 20px;
+    box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.488);
+}
+#logo{
+    display: inline-block;
+    /* float: left; */
+    width: 75%;
+}
+#links{
+    display: inline-block;
+}
+#links > a{
+    text-decoration: none;
+    color: rgb(40, 50, 40);
+    margin-right: 15px;
+}
+#hero-text {
+    display: inline-block;
+    position: relative;
+    bottom: 100px;
+}
+
+#hero-text > h1{
+    font-size: 2.8rem;
+    color: #785238;
+    text-align: center;
+}
+
+#hero-image {
+    display: inline-block;
+    padding: 20px 0 0 0;
+    width: 40%;
+}
+
+#hero-image > img{
+    width: 100%;
+}
+
+#hero{
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: inset 0 0 10px rgba(220, 218, 218, 0.5);
+    margin-top: 50px;
+}
+#hero-text > button{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #785238;
+    color: #fdf9f2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+#doctrines{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#content{
+    text-align: center;
+}
+
+#test_1:hover {
+    background-color: red;
+}
+
+#vhee{
+    display: inline-block;
+    box-shadow:inset 0 0 10px rgba(220, 218, 218, 0.5); 
+    margin-right: 85px;
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+}
+#vhickey{
+    display: inline-block;
+    box-shadow:inset  0  0 10px rgba(220, 218, 218, 0.5); 
+    width: 250px;
+    height: 200px;
+    position:relative;
+    top: 35px;
+    margin-right: 85px;
+    border-radius: 10px;
+} 
+#viki{
+    display: inline-block;
+    box-shadow: inset 0 0 10px rgba(220, 218, 218, 0.5);
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+}
+#missions{
+    width: 60%;
+    margin:0 auto;
+    box-shadow: 10px 10px 10px rgba(178, 126, 126, 0.5);
+    margin-top: 50px;
+    background-color: #785238;
+}
+#mission-text{
+    display: inline-block;
+    width: 50%;
+    margin-right: 85px;
+}
+#mission-image {
+    display: inline-block;
+    /* padding: 20px 0 0; */
+    width: 40%;
+    height: 40%;
+    margin-top: 30px;
+}
+
+#mission-image img {
+    width: 300px;
+}
+#mission-text >h2{
+    font-size: 2.8rem;
+    color: #fefaf6;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#mission-text >p{
+    margin-bottom: 70px;
+    color: #fdf9f2;
+    text-align: center;
+    margin-left: 40px;
+}
+#mission-text >button {
+     display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #372011;
+    color: #fdf9f2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+#mission-text >button:hover {
+    background-color: brown;
+}
+#others{
+    text-align: center;
+    margin-top: 50px;
+
+}
+#complete{
+    display: inline-block;
+    width:450px ;
+    height: 200px;
+    background-color: #785238;
+    margin-right: 20px;
+    position: relative;top: 30px;
+}
+#commy{
+    display: inline-block;
+    width: 450px;
+    height: 200px;
+    background-color: rgb(39, 38, 37);
+}
+#complete h2, #commy h2{
+    color: #fdf9f2;
+    margin-top: 50px;
+}
+#complete p, #commy p{
+    color: #fdf9f2;
+    margin-top: 20px;
+}
+#complete >button{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #372011;
+    color: #fdf9f2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+#complete:hover >button, #commy:hover > button{
+    background-color: brown;
+}
+
+#commy >input{
+background-color: #000;
+}
+#diong {
+    display: inline-block;
+}
+#eddie {
+    display: inline-block;
+} #edidiong {
+    display: inline-block;
+}
+#tee {
+    display: inline-block;
+    background-color: #fdf9f2;
+}
+#tea {
+    display: inline-block;
+    background-color: #fdf9f2;
+}
+#sure {
+    display: inline-block;
+    background-color: #fdf9f2;
+}
+#dee {
+    display: inline-block;
+    text-align: center;
+    width: 90%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: #fdf9f2;    
+}
+#treasure {
+    display: inline-block;
+    margin-top: 40px;
+    margin-top: 30px; 
+    color: #fdf9f2;
+}
+#ugo {
+    text-align: center;
+    color: #fdf9f2;
+}
+#footer {
+    background-color: #000;
+    margin-top: 40px;
+}
+
